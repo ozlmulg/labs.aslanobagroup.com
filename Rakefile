@@ -45,7 +45,7 @@ def prep_file(post_date, title)
   output << "subtitle:      \"Alt Başlık\""
   output << "date:          #{post_date}"
   output << "# categories:    kategori kategori"
-  output << "header-img:    \"images/post-bg.jpg\""
+  output << "header-img:    \"images/bg/post-bg.jpg\""
   output << "published: true"
   output << "---"
   return {
