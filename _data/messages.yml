@@ -3,5 +3,8 @@ locales:
     previous_posts: "ESKİLER"
     next_posts: "YENİLER"
     toggle_navigation: "Navigasyonu değiştir"
+    register_bulletin: "Haftalık bültenimize üye olmak ister misiniz?"
+    register_email: "e-posta adresiniz?"
+    register_button: "Üye Ol!"
     navigation:
         home: "Ana Sayfa"

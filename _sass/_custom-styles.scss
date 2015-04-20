@@ -9,6 +9,16 @@ address {
     color: #555;
 }
 
+.custom-input {
+  border-radius: 0;
+  height: 52px;
+}
+
+#subscribe-bulletin {
+  text-align: center;
+  margin-bottom: 2em;
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-custom {
         position: fixed;
