@@ -1,0 +1,32 @@
+// add your custom styles here...
+.pager li>a {
+    text-transform: none;
+}
+
+address {
+    font-size: 12px;
+    text-align: center;
+    color: #555;
+}
+
+@media only screen and (max-width: 767px) {
+    .navbar-default {
+        background-color: #555;
+        border-color: #333;
+    }
+    .navbar-default .navbar-toggle {
+        border-color: #777;
+        border-radius: 0;
+    }
+
+    .navbar-default .navbar-collapse {
+        border-color: initial;
+    }
+
+    .navbar-default .navbar-nav>li>a {
+        color: white;
+        &:hover {
+            color: #ddd;
+        }
+    }
+}
