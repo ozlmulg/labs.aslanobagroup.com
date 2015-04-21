@@ -6,5 +6,7 @@ locales:
     register_bulletin: "Haftalık bültenimize üye olmak ister misiniz?"
     register_email: "e-posta adresiniz?"
     register_button: "Üye Ol!"
+    tags: "etiketler"
+    displaying_related_tags: "İlgili etiketler görüntüleniyor."
     navigation:
         home: "Ana Sayfa"
