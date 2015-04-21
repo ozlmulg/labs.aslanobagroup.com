@@ -5,13 +5,18 @@ permalink: /hakkinda/
 header-img: "images/example/about-bg.jpg"
 ---
 
-Lorem Ipsum, dizgi ve baskı endüstrisinde kullanılan mıgır metinlerdir.
-Lorem Ipsum, adı bilinmeyen bir matbaacının bir hurufat numune kitabı
-oluşturmak üzere bir yazı galerisini alarak karıştırdığı 1500'lerden beri
-endüstri standardı sahte metinler olarak kullanılmıştır.
+**Aslanoba Labs**, Aslanoba Grubu bünyesinde faaliyet gösteren, teknoloji
+odaklı bir oluşum. Günümüz modern yazılım teknolojileri ile ilgili
+yenilikleri takip eden, eko-sistem’e katkı yapmayı hedeflemiş bir
+**Yazılım Geliştirici Merkezi**.
 
-Beşyüz yıl boyunca varlığını sürdürmekle kalmamış, aynı zamanda pek değişmeden
-elektronik dizgiye de sıçramıştır. 1960'larda Lorem Ipsum pasajları da içeren
-Letraset yapraklarının yayınlanması ile ve yakın zamanda Aldus PageMaker gibi
-Lorem Ipsum sürümleri içeren masaüstü yayıncılık yazılımları ile
-popüler olmuştur.
+Hızla ilerleyen yazılım dünyasındaki yenilikleri, teknolojileri ve yöntemleri
+yakından takip etmek isteyen herkese açık, **açık kaynak** bir proje aynı
+zamanda.
+
+Seminer, etkinlik, konferans, yazılım teknolojileri ile ilgili makaleler,
+periyodik yapılacak buluşmalar ve benzeri faaliyetler yapmayı hedeflediğimiz
+planalarımız arasında.
+
+Sizlerin fikirleri de bizim için çok önemli. Lütfen yazılım teknolojileriyle
+ilgili fikir ve görüşlerinizi bizimle paylaşın.

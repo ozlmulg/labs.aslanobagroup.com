@@ -18,7 +18,7 @@ task :initialize do
 end
 
 task :serve do
-  system "jekyll serve -w"
+  system "jekyll serve -w --host 0.0.0.0"
 end
 
 # rake post
