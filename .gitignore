@@ -5,3 +5,4 @@ vendor/bundle
 _drafts/
 _stash/
 _config.yml
+_credentials.yml
