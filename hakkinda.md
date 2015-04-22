@@ -16,7 +16,7 @@ zamanda.
 
 Seminer, etkinlik, konferans, yazılım teknolojileri ile ilgili makaleler,
 periyodik yapılacak buluşmalar ve benzeri faaliyetler yapmayı hedeflediğimiz
-planalarımız arasında.
+planlarımız arasında.
 
 Sizlerin fikirleri de bizim için çok önemli. Lütfen yazılım teknolojileriyle
 ilgili fikir ve görüşlerinizi bizimle paylaşın.
