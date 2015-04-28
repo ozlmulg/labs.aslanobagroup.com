@@ -29,6 +29,16 @@ address {
   }
 }
 
+.page-layout {
+  $h2-color: #574E3B;
+  h2 {
+    color: $h2-color;
+  }
+  h3 {
+    color: lighten($h2-color, 20);
+  }
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-custom {
         position: fixed;

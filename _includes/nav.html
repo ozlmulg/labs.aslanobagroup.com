@@ -20,9 +20,9 @@
                 </li>
                 {% for page in site.pages %}
                     {% if page.title %}
-                        {% unless page.tag %}
+                        {% if page.menu %}
                             <li><a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a></li>
-                        {% endunless %}
+                        {% endif %}
                     {% endif %}
                 {% endfor %}
             </ul>

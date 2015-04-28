@@ -29,7 +29,7 @@ desc "Yeni blog post"
 task :post, [:title, :post_date] do |t, args|
   title = args[:title] ? args[:title] : "Yeni Yazım"
   post_date = args[:post_date] ? DateTime.parse(args[:post_date]).strftime(DATE_FORMAT) : NOW
-  preps = prep_file(post_date, title)
+  preps = prep_file_post(post_date, title)
   filename = preps[:filename]
   content = preps[:content]
   filename_path = "_posts/#{filename}"
@@ -38,6 +38,18 @@ task :post, [:title, :post_date] do |t, args|
   puts "Yeni blog dosyası oluşturuldu: #{filename}"
 end
 
+# rake page["Etkinlikler","/etkinlikler/"]
+desc "Yeni Sayfa"
+task :page, [:title, :url] do |t, args|
+  raise "Lütfen sayfanızın başlığını girin!" unless args[:title]
+  raise "Lütfen oluşacak linki girin girin! Örnek: /sayfam/" unless args[:url]
+  preps = prep_file_page(args[:title], args[:url])
+  filename = preps[:filename]
+  content = preps[:content]
+  raise "Bu dosya: #{filename} zaten var..." if File.exists? filename
+  File.write filename, content
+  puts "Yeni sayfa oluşturuldu: #{filename}"
+end
 
 namespace :deploy do
   desc "Deploy (Rsync)"
@@ -52,8 +64,21 @@ namespace :deploy do
   end
 end
 
+def prep_file_page(title, url)
+  filename = "#{url.gsub(/\//, "")}.md"
+  output = ["---"]
+  output << "layout: page"
+  output << "title: \"#{title}\""
+  output << "permalink: \"#{url}\""
+  output << "header-img: \"images/example/about-bg.jpg\""
+  output << "---"
+  {
+    filename: filename,
+    content: output.join("\n")
+  }
+end
 
-def prep_file(post_date, title)
+def prep_file_post(post_date, title)
   output = ["---"]
   output << "layout:        post"
   output << "title:         \"#{title}\""
@@ -64,7 +89,7 @@ def prep_file(post_date, title)
   output << "published:     true"
   output << "# posted_by:     Ad Soyad"
   output << "---"
-  return {
+  {
     filename: "#{post_date.gsub(/[ :]/, "-")}-#{title.to_url}.md",
     content: output.join("\n")
   }
