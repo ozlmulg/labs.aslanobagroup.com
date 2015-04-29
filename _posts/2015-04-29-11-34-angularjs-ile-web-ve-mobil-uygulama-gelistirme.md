@@ -37,9 +37,7 @@ Kitaba [Kodlab websitesinden][aj-buy] ulaşabilirsiniz. KDV dahil **28 TL**.
 
 ## Mehmet Canker Kimdir?
 
-![Mehmet Canker](/images/posts/mehmet-canker-ve-angularjs-kitabi.jpg)  
-
-Yıldız Teknik Üniversitesi Elektronik ve Haberleşme Mühendisliği bölümü 
+<img class="floating-image left" src="/images/posts/mehmet-canker.jpg" alt="Mehmet Canker" />Yıldız Teknik Üniversitesi Elektronik ve Haberleşme Mühendisliği bölümü 
 mezunu olup, 2010 yılından itibaren sektörde çeşitli firmalarda yazılım
 geliştirme uzmanı olarak görev yapmıştır.
 
