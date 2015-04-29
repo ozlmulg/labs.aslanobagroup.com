@@ -46,6 +46,12 @@ blockquote {
   }
 }
 
+.blog-post {
+  iframe {
+    border: none;
+  }
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-custom {
         position: fixed;
