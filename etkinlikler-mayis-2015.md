@@ -25,6 +25,17 @@ Kayıt için [tıklayın][devops-reg].
 
 ***
 
+## 5 Mayıs 2015, Salı, 19:30 - 21:00
+### Practical Agile
+
+[Paul Ellarby][paul-ellarby]’nin katılacağı Agile Türkiye toplantısı. Lütfen
+linkten [kayıt][agile-tr] olun.
+
+[İTÜ Teknokent ARI 3][itu-ari]  
+Seminer Salonu 3, Maslak
+
+***
+
 ## 8 Mayıs 2015, Cuma, 19:00 - 21:00
 ### Aslanoba Labs Tanışma Etkinliği
 
@@ -55,6 +66,17 @@ Kayıt için lütfen [tıklayın][djist-reg-2].
 Tavukçu Fethi Sokak No:5  
 Osmanbey, İstanbul
 
+***
+
+## 30 Mayıs 2015
+### CraftSummit 2015
+
+[ACM][acm] tarafından düzenlenen Yazılım Ustalığı konferansı. Ücretli etkinlik.
+
+[İstanbul Bahçeşehir Üniversitesi][bau],  
+Çırağan Caddesi Osmanpaşa Mektebi Sokak, No:4-6,  
+34353 Beşiktaş, İstanbul
+
 
 [hipo]: http://hipolabs.com/
 [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
@@ -69,3 +91,8 @@ Osmanbey, İstanbul
 [rust-lang]: http://www.rust-lang.org/
 [serdar-dogruyol]: https://twitter.com/sdogruyol
 [labs-01-reg]: https://aslanobalabs-01.eventbrite.com
+[bau]: http://www.bahcesehir.edu.tr/
+[acm]: http://www.acm-software.com/
+[paul-ellarby]: http://www.paulellarby.com/
+[agile-tr]: http://www.meetup.com/Agile-Bulusmalar/events/221218392/
+[itu-ari]: https://www.google.com/maps/place/34398+Maslak%2FIstanbul,+Turkey/@41.1144375,29.0184601,15z/data=!3m1!4b1!4m2!3m1!1s0x14cab5bf15c34913:0x19571e96a2eaf2f6?hl=en
