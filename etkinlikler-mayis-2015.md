@@ -68,6 +68,21 @@ Osmanbey, İstanbul
 
 ***
 
+## 16 Mayıs 2015, Cumartesi, 13:00
+### App Strategy Workshop
+
+[Mobilİstanbul][mobilistanbul]’dan güzel bir etkinlik daha. Bir çok developer,
+startup sahibi, girişimci, yatırımcı bir araya gelecek ve uygulamaların nasıl 
+daha karlı hale gelebileceğini tartışacağız. Kayıt için [tıklayın][appsws].
+
+[Bahçeşehir Üniversitesi][bau], İnkübasyon Merkezi  
+Beşiktaş, İstanbul  
+
+[appsws]: http://www.eventbrite.com/e/app-strategy-workshop-by-mobil-istanbul-tickets-16834703050
+[mobilistanbul]: http://mobilistanbul.com/app-strategy-workshop/
+
+***
+
 ## 30 Mayıs 2015
 ### CraftSummit 2015
 
