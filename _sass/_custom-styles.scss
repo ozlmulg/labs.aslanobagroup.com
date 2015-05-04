@@ -76,6 +76,13 @@ blockquote {
   }
 }
 
+.blog-post, .page-layout {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+}
+
 @media only screen and (max-width: 767px) {
     .navbar-custom {
         position: fixed;
