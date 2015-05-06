@@ -51,8 +51,6 @@ sunumuyla göz atacağız!
 Kuşbakışı Caddesi, No 27  
 34662 - Altunizade - İstanbul
 
-[1-1]: https://www.mealbox.com.tr/
-
 ***
 
 ## 9 Mayıs 2015, Cumartesi
@@ -65,6 +63,37 @@ Kayıt için lütfen [tıklayın][djist-reg-2].
 [Hipo Labs][hipo] | [Harita][hipo-map]  
 Tavukçu Fethi Sokak No:5  
 Osmanbey, İstanbul
+
+***
+
+## 9 Mayıs 2015, Cumartesi
+### PGDay İstanbul 2015
+
+PostgreSQL Kullanıcıları ve Geliştiricileri Derneği, [4.Türkiye PostgreSQL Konferansı][pgday-home]'nı 
+düzenliyor! Hem konferans hem de atölye içeren konferan için lütfen [kaydınızı][pgday-home]
+yaptırın.
+
+[Boğaziçi Üniversitesi][boun], Albert Long Hall Salonu  
+Bebek Mh., 34342  
+Beşiktaş - İstanbul
+
+[pgday-home]: http://pgday.postgresql.org.tr/index.html
+[boun]: http://boun.edu.tr/
+***
+
+## 16 Mayıs 2015, Cumartesi, 11:00
+### IstanbulPHP Meetup #008
+
+İstanbul’lu Php severler Şehir Üniversitesi’nde buluşuyor. Bu ayki
+toplantıda Uğur Özyılmazel - Bash 101, Fatih Emre - Phalcon 2.0 ve
+Emir Karşıyakalı - Puli konularını anlatacak. Kayıt olmak için
+[tıklayın][istphp8].
+
+[İstanbul Şehir Üniversitesi][sehir-uni], [Güney Kampüsü][sehir-guney]  
+Kuşbakışı Caddesi, No 27  
+34662 - Altunizade - İstanbul
+
+[istphp8]: http://www.meetup.com/IstanbulPHP/events/222316720/
 
 ***
 
