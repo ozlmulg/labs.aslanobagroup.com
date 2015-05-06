@@ -1,0 +1,138 @@
+- start_date: 2015-05-04 19:00
+  end_date: 2015-05-04 21:00
+  title: "DevOps Nedir? Yenir mi?"
+  description: |
+    Günümüz dünyasında, yazılım geliştirme modelleri hızlı değişen ihtiyaçlara,
+    hızlıca yanıt vermek zorunda. Geleneksel modellerin çoğu, bu ihtiyaca artık
+    cevap veremiyor.
+
+    DevOps ile hem yazılım süreçlerine hız katabilir, hem de değişen fikirlerinizi
+    kolayca yazılımınıza entegre edebilirsiniz. Bu etkinliğimizde, DevOps konusu,
+    avantajları ve kullanım alanları üzerinde sohbet ediyor olacağız.
+
+    Kayıt için [tıklayın][devops-reg].
+    [devops-reg]: http://www.meetup.com/Istanbul-PaaS-Meetup/events/221887740/
+  venue: |
+    [Koç Incubation Center][koc-inc] | [Harita][koc-inc-map]  
+    19 Mayıs Cad.Golden Plaza 1/1  
+    34360 Şişli, Istanbul
+    [koc-inc]: http://incubation.ku.edu.tr/
+    [koc-inc-map]: https://www.google.com/maps/place/Golden+Plaza/@41.061645,28.989145,17z/data=!3m1!4b1!4m2!3m1!1s0x14cab703425f0e87:0x5deba339ba107c1e?hl=en
+
+
+- start_date: 2015-05-05 19:30
+  end_date: 2015-05-05 21:00
+  title: "Practical Agile"
+  description: |
+    [Paul Ellarby][paul-ellarby]’nin katılacağı Agile Türkiye toplantısı. Lütfen
+    linkten [kayıt][agile-tr] olun.
+    [paul-ellarby]: http://www.paulellarby.com/
+    [agile-tr]: http://www.meetup.com/Agile-Bulusmalar/events/221218392/
+  venue: |
+    [İTÜ Teknokent ARI 3][itu-ari]  
+    Seminer Salonu 3, Maslak
+    [itu-ari]: https://www.google.com/maps/place/34398+Maslak%2FIstanbul,+Turkey/@41.1144375,29.0184601,15z/data=!3m1!4b1!4m2!3m1!1s0x14cab5bf15c34913:0x19571e96a2eaf2f6?hl=en
+
+
+- start_date: 2015-05-08 19:00
+  end_date: 2015-05-08 21:00
+  title: "Aslanoba Labs Tanışma Etkinliği"
+  description: |
+    [Şehir TTO][sehir-tto] ve incuba.city işbirliğiyle ilk buluşmamızı
+    gerçekleştireceğiz. Kod yazmayı seven, modern yazılım teknolojilerine
+    ilgi duyan geliştiricilerle, son dönemde adından sıkça söz ettiren
+    [Rust][rust-lang] programlama diline [Serdar Doğruyol][serdar-dogruyol] 
+    sunumuyla göz atacağız!
+
+    [Kayıt yaptırmak için lütfen tıklayın][labs-01-reg].
+
+    [sehir-tto]: http://tto.sehir.edu.tr/
+    [rust-lang]: http://www.rust-lang.org/
+    [serdar-dogruyol]: https://twitter.com/sdogruyol
+    [labs-01-reg]: https://aslanobalabs-01.eventbrite.com
+  venue: |
+    [İstanbul Şehir Üniversitesi][sehir-uni], [Güney Kampüsü][sehir-guney]  
+    Kuşbakışı Caddesi, No 27  
+    34662 - Altunizade - İstanbul
+    [sehir-uni]: http://www.sehir.edu.tr/
+    [sehir-guney]: https://www.google.com/maps/place/Ku%C5%9Fbak%C4%B1%C5%9F%C4%B1+Cd+No:27,+Altunizade+Mh.,+34200+%C3%9Csk%C3%BCdar%2F%C4%B0stanbul,+Turkey/@41.0257178,29.0454139,17z/data=!3m1!4b1!4m2!3m1!1s0x14cab7e26fe287b3:0xa8c86e78606664fd?hl=en
+
+
+- start_date: 2015-05-09 10:00
+  end_date: 2015-05-09 17:00
+  title: "2.Django İstanbul Buluşması"
+  description: |
+    Cumartesi günü hep birlikte kahvaltı yaptı yaptıktan sonra 3 adet sunum
+    dinlenecek. Eğer sunum yapmak isterseniz [buradan][djist-cfp-2] başvurabilirsiniz.
+    Kayıt için lütfen [tıklayın][djist-reg-2].
+
+    [djist-cfp-2]: https://docs.google.com/forms/d/1pDH18u-zHcm5CHr7e-3W_jhzHC4h1TDAkAZXMt7TVxc/viewform?edit_requested=true
+    [djist-reg-2]: http://www.meetup.com/djangoist/events/222021122/
+  venue: |
+    [Hipo Labs][hipo] | [Harita][hipo-map]  
+    Tavukçu Fethi Sokak No:5  
+    Osmanbey, İstanbul
+    [hipo]: http://hipolabs.com/
+    [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
+
+
+- start_date: 2015-05-09 09:00
+  end_date: 2015-05-09 17:45
+  title: "PGDay İstanbul 2015"
+  description: |
+    PostgreSQL Kullanıcıları ve Geliştiricileri Derneği, [4.Türkiye PostgreSQL Konferansı][pgday-home]'nı 
+    düzenliyor! Hem konferans hem de atölye içeren konferan için lütfen [kaydınızı][pgday-home]
+    yaptırın.
+    [pgday-home]: http://pgday.postgresql.org.tr/index.html
+  venue: |
+    [Boğaziçi Üniversitesi][boun], Albert Long Hall Salonu  
+    Bebek Mh., 34342  
+    Beşiktaş - İstanbul
+    [boun]: http://boun.edu.tr/
+
+
+- start_date: 2015-05-16 11:00
+  end_date: 2015-05-16 13:00
+  title: "IstanbulPHP Meetup #008"
+  description: |
+    İstanbul’lu Php severler Şehir Üniversitesi’nde buluşuyor. Bu ayki
+    toplantıda Uğur Özyılmazel - Bash 101, Fatih Emre - Phalcon 2.0 ve
+    Emir Karşıyakalı - Puli konularını anlatacak. Kayıt olmak için
+    [tıklayın][istphp8].
+    [istphp8]: http://www.meetup.com/IstanbulPHP/events/222316720/
+  venue: |
+    [İstanbul Şehir Üniversitesi][sehir-uni], [Güney Kampüsü][sehir-guney]  
+    Kuşbakışı Caddesi, No 27  
+    34662 - Altunizade - İstanbul
+    [sehir-uni]: http://www.sehir.edu.tr/
+    [sehir-guney]: https://www.google.com/maps/place/Ku%C5%9Fbak%C4%B1%C5%9F%C4%B1+Cd+No:27,+Altunizade+Mh.,+34200+%C3%9Csk%C3%BCdar%2F%C4%B0stanbul,+Turkey/@41.0257178,29.0454139,17z/data=!3m1!4b1!4m2!3m1!1s0x14cab7e26fe287b3:0xa8c86e78606664fd?hl=en
+
+
+- start_date: 2015-05-16 13:00
+  end_date: 2015-05-16 17:00
+  title: "App Strategy Workshop"
+  description: |
+    [Mobilİstanbul][mobilistanbul]’dan güzel bir etkinlik daha. Bir çok developer,
+    startup sahibi, girişimci, yatırımcı bir araya gelecek ve uygulamaların nasıl 
+    daha karlı hale gelebileceğini tartışacağız. Kayıt için [tıklayın][appsws].
+    [mobilistanbul]: http://mobilistanbul.com/app-strategy-workshop/
+    [appsws]: http://www.eventbrite.com/e/app-strategy-workshop-by-mobil-istanbul-tickets-16834703050
+  venue: |
+    [Bahçeşehir Üniversitesi][bau], İnkübasyon Merkezi  
+    Beşiktaş, İstanbul  
+    [bau]: http://www.bahcesehir.edu.tr/
+
+
+- start_date: 2015-05-30 09:00
+  end_date: 2015-05-30 16:45
+  title: "CraftSummit 2015"
+  description: |
+    [ACM][acm] tarafından düzenlenen [Yazılım Ustalığı konferansı][crftsmt]. Ücretli etkinlik.
+    [acm]: http://www.acm-software.com/
+    [crftsmt]: http://www.craftsummit.org/
+  venue: |
+    [İstanbul Bahçeşehir Üniversitesi][bau],  
+    Çırağan Caddesi Osmanpaşa Mektebi Sokak, No:4-6,  
+    34353 Beşiktaş, İstanbul
+    [bau]: http://www.bahcesehir.edu.tr/
+    
