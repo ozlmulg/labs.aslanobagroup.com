@@ -115,12 +115,13 @@ Beşiktaş, İstanbul
 ## 30 Mayıs 2015
 ### CraftSummit 2015
 
-[ACM][acm] tarafından düzenlenen Yazılım Ustalığı konferansı. Ücretli etkinlik.
+[ACM][acm] tarafından düzenlenen [Yazılım Ustalığı konferansı][crftsmt]. Ücretli etkinlik.
 
 [İstanbul Bahçeşehir Üniversitesi][bau],  
 Çırağan Caddesi Osmanpaşa Mektebi Sokak, No:4-6,  
 34353 Beşiktaş, İstanbul
 
+[crftsmt]: http://www.craftsummit.org/
 
 [hipo]: http://hipolabs.com/
 [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
