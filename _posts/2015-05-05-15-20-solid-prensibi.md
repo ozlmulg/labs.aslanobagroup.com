@@ -67,6 +67,39 @@ her iki şeklinde kendi `çizim` metodu olsa. En sonda da `ŞekliÇiz` diye
 ayrı bir sınıf olsa, bu sınıfı oluştururken ilgili şekli parametre olarak
 geçsek ve çizme işlemi için ilgili şeklin `çizim` metodunu çağırsak?
 
+Aşağıdaki örnek bu prensibi ihlal eder. Yarın `json` çıktı almak yerine
+`pdf` ya da `xml` çıktı gerekse kodu değiştirmek gerekecek...
+
+```ruby
+class Rapor
+  def dokuman
+    dokumani_uret
+  end
+
+  def yazdir
+    dokuman.to_json # json çıktı alır
+  end
+end
+```
+
+Halbuki aşağıdaki durum bu kurala uyar;
+
+```ruby
+class Rapor
+  def dokuman
+    dokumani_uret
+  end
+
+  def yazdir(cikti_formati: JSONFormatter.new)
+    cikti_formati.format dokuman
+  end
+end
+
+aylik_rapor = Rapor.new
+aylik_rapor.yazdir(cikti_formati: XMLFormatter.new) # xml olarak aldık...
+```
+
+
 [Kaynak][09]
 
 ***
@@ -125,6 +158,40 @@ kare.genislik * kare.yukseklik       # => 25 ???
 
 `Kare` sınıfı, Liskov değişimi kuralını ihlal edip, üst sınıftan gelen
 özellikleri modifiye etmiştir.
+
+Başka bir örnek;
+
+```ruby
+class Hayvan
+  def yuru
+     yurume_islemi
+  end
+end
+
+class Kedi < Hayvan
+  def kos
+    kosma_islemi
+  end
+end
+```
+
+Verdiğim örnek Ruby’den ve Ruby’de **interface** mantığı yok. Yukarıdaki
+kod Liskov değişimi prensibini ihlal ediyor. Neden? `Kedi` sınıfı `Hayvan`dan
+türedi ve `Hayvan` sınıfının `kos` diye bir metodu yok... Bu durumda,
+`Hayvan` sınıfını bir **interface** gibi düşünmeli ve interface’de olan
+metodları **implement** etmeliyiz. Bu bakımdan `Hayvan` sınıfı aşağıdaki
+gibi olmalı:
+
+```ruby
+class Hayvan
+  def yuru
+    yurume_islemi
+  end
+  def kos                          # koşma özelliği olmasa bile
+    raise NotImplementedError      # prensibe göre çapraz
+  end                              # eşitlik olmalı...
+end
+```
 
 [Kaynak][solid-l1], [Kaynak][solid-l2]
 
