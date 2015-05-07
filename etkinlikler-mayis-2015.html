@@ -6,23 +6,24 @@ permalink: "/etkinlikler/2015/mayis/"
 header-img: "images/bg/contact-bg.jpg"
 ---
 
-{% assign sorted_calendar = site.data.calendar | calendar: "2015-05" %}
+{% assign sorted_calendar = site.data.calendar | datelize: "start_date", "end_date" | date_query: "start_date__year", "=2015" %}
+
 <div class="calendar">
-    <h1>{{ sorted_calendar.first.start_date| localize: "%B %Y" }} Etkinlikleri</h1>
+    <h1>{{ sorted_calendar.first.start_date | localize: "%B %Y" }} Etkinlikleri</h1>
     <hr/>
-{% for event in sorted_calendar %}
+    {% for event in sorted_calendar %}
+        {% assign single_day_event = event | is_sameday %}
+        {% if single_day_event %}
+            {% assign event_end_date = event.end_date | localize: "%H:%M" %}
+        {% else %}
+            {% assign event_end_date = event.end_date | localize: "%-d %B %Y, %A" %}
+        {% endif %}
     <div class="calendar-item">
         <h2>{{ event.title }}</h2>
-        <h3>
-        {% if event.end_time %}
-            {{ event.start_date | localize: "%-d %B %Y, %A %H:%M" }} - {{ event.end_time | localize: "%H:%M" }}
-        {% else %}
-            {{ event.start_date | localize: "%-d %B %Y, %A" }} - {{ event.end_date | localize: "%-d %B %Y, %A" }}
-        {% endif %}
-        </h3>
+        <h3>{{ event.start_date | localize: "%-d %B %Y, %A %H:%M" }} - {{ event_end_date }}</h3>
         {{ event.description | markdownify }}
         {{ event.venue | markdownify}}
         <hr/>
     </div>
-{% endfor %}
+    {% endfor %}
 </div>

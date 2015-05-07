@@ -1,35 +1,31 @@
 module Jekyll
   module CalendarFilter
-    def same_day?(date1, date2)
-      if (date1.year == date2.year) and (date1.month == date2.month) and (date1.day == date2.day)
-        true
-      else
-        false
+    def is_sameday(event)
+      start_date = event["start_date"]
+      end_date = event["end_date"]
+      start_date.year == end_date.year and start_date.month == end_date.month and start_date.day == end_date.day
+    end
+
+    def datelize(data, *fields)
+      data.select do |item|
+        fields.each do |field|
+          item[field] = DateTime.parse(item[field])
+        end
+        item
       end
     end
 
-    def calendar(data, show_date = nil)
-      return_value = data
-      if show_date
-        show_date = DateTime.parse("#{show_date}-01")
-        condition = [
-          proc{|i| DateTime.parse(i).month == show_date.month},
-          proc{|i| DateTime.parse(i).year == show_date.year}
-        ]
-        return_value = data.select{|item| condition.all?{|c| c[item["start_date"]] }}.map do |item|
-          start_date = DateTime.parse(item["start_date"])
-          end_date = DateTime.parse(item["end_date"])
-          end_time = nil
-          if same_day?(start_date, end_date)
-            end_time = end_date
-          end
-          item["start_date"] = start_date
-          item["end_time"] = end_time
-          item
-        end
+    def date_query(data, field_prop, comp_value)
+      field, property = field_prop.split("__")
+      compare = comp_value[0]
+      value = comp_value[1..-1].to_i
+      case compare
+      when "="
+        control = proc{|x| x == value}
       end
-      return_value.sort_by{|item| item["start_date"]}
+      data.select{|item| control[item[field].method(property.to_sym).call]}
     end
+
   end
 end
 Liquid::Template.register_filter(Jekyll::CalendarFilter)

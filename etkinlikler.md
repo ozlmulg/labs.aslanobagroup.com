@@ -9,4 +9,4 @@ menu: true
 
 # 2015
 
-* [Mayıs](/etkinlikler/2015/mayis/)
+* [Mayıs ayı etkinlikleri](/etkinlikler/2015/mayis/)
