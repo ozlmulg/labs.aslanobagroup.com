@@ -1,0 +1,20 @@
+---
+layout: page
+title: "Etkinlikler"
+subtitle: "Geliştirici etkinlikleri takvimi!"
+permalink: "/etkinlikler/"
+header-img: "images/bg/contact-bg.jpg"
+menu: true
+---
+
+{% assign events = site.data.calendar | calendar_group_by: "start_date__year" %}
+
+{% for item in events %}
+    <h1>{{ item[0] }}</h1>
+    {% assign events_by_month = item[1] | calendar_group_by: "start_date__month" %}
+    {% for item_hash in events_by_month %}
+        <ul>
+            <li><a href="/etkinlikler/{{ item[0] }}/{{ item_hash[1].first.start_date | localize: "%B" | to_url }}/">{{ item_hash[1].first.start_date | localize: "%B" }} etkinlikleri [{{ item_hash[1].size }}]</a></li>
+        </ul>
+    {% endfor %}
+{% endfor %}

@@ -25,7 +25,18 @@ module Jekyll
       end
       data.select{|item| control[item[field].method(property.to_sym).call]}
     end
-
+    
+    def calendar_group_by(data, field_method)
+      field, method = field_method.split("__")
+      out = {}
+      data.each do |item|
+        f = item[field].method(method.to_sym).call
+        out[f] = [] unless out.key?(f)
+        out[f] << item
+      end
+      out
+    end
+    
   end
 end
 Liquid::Template.register_filter(Jekyll::CalendarFilter)
