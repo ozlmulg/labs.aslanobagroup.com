@@ -137,3 +137,22 @@
     [bau]: http://www.bahcesehir.edu.tr/
 
 
+- start_date: 2015-05-13 08:00
+  end_date: 2015-05-14 17:00
+  title: "UX Alive"
+  description: |
+    [UX Alive][uxalive-url], Kullanıcı Deneyimi ve Kullanılabilirlik alanında Türkiye, 
+    Orta Doğu ve Kuzey Afrikada düzenlenecek olan, atölye çalışmaları ve 
+    uzmanların deneyimlerini içeren en büyük uluslararası konferanstır.
+
+    İlki bu yıl düzenlenen kullanıcı deniyimi ve etkileşimi ile ilgili konferans.
+    [Userspots][uxalive-userspots] tarafından gerçekleştirilen etkinlik 2 gün
+    sürüyor ve dünyaca ünlü tasarımcılar katılıyor ve atölyeleri içeriyor.
+    Ücretli etkinlik.
+    [uxalive-url]: http://www.uxalive.com/
+    [uxalive-userspots]: http://www.userspots.com/
+  venue: |
+    [Wyndham Grand İstanbul][uxalive-hotel],  
+    Esentepe Mh., Büyükdere Cd No:177,  
+    Şişli, İstanbul
+    [uxalive-hotel]: http://www.wyndhamgrandlevent.com/
