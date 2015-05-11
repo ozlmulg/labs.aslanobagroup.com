@@ -158,6 +158,25 @@
     [uxalive-hotel]: http://www.wyndhamgrandlevent.com/
 
 
+- start_date: 2015-05-20 15:30
+  end_date: 2015-05-20 17:00
+  title: "DEVOPS ve Uygulama Örnekleri"
+  description: |
+    Çevikliğin uç noktası: DevOps. Yazılım Yaşam Döngüsünün otomasyona bağlanarak 
+    yazılımcıların sistem takımlarına anlık bağımlılıklarını azaltıp; yazılımcıları 
+    operasyonel işlerden arındırıp, üstüne mühendislik pratiklerinin de uygulanarak 
+    yüksek kalitede, daha sık ve daha sorunsuz canlı ortam çıkışlarının 
+    sağlaması.
+
+    Konuşmacı: Derya Sezen. Kayıt için [tıklayın][devops-x].
+    [devops-x]: http://www.meetup.com/istanbul-leanstartup-meetup-group/events/222315991/
+  venue: |
+    ARI Teknokent 2-B Toplantı Salonu  
+    İstanbul Teknik Üniversitesi, Maslak  
+    [Harita][devops-x-map]
+    [devops-x-map]: http://maps.google.com/maps?f=q&hl=en&q=%C4%B0stanbul+Teknik+%C3%9Cniversitesi%2C+Maslak%2C+Istanbul%2C+tr
+
+
 - start_date: 2015-06-13 09:00
   end_date: 2015-06-13 09:00
   title: "The Frontiers Mini"
