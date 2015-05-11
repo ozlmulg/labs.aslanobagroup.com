@@ -156,3 +156,19 @@
     Esentepe Mh., Büyükdere Cd No:177,  
     Şişli, İstanbul
     [uxalive-hotel]: http://www.wyndhamgrandlevent.com/
+
+
+- start_date: 2015-06-13 09:00
+  end_date: 2015-06-13 09:00
+  title: "The Frontiers Mini"
+  description: |
+    [HTML Magazin Türkiye][the-htmlm]’nin [ilk Front-end Konferansı][the-fm]’nı düzenliyor. Modern arayüz 
+    geliştirme tekniklerinden, Nodejs, Google Closures gibi gelişmiş javascript 
+    yaklaşımlarına, CSS3 Layout ve UI Kitlerinden, Design Patternleri ve 
+    Web tabanlı İşletim sistemlerine, Tasarım Yaklaşımlarından, Web’in Nereye 
+    Gittiğine kadar arayüz geliştirmeyi ilgilendiren bir çok konuda konuşmayı 
+    sizlerle buluşturuyoruz.
+    [the-htmlm]: http://htmlmag.com
+    [the-fm]: http://htmlmag.com/etkinlik/the-frontiers-mini
+  venue: |
+    Henüz belirlenmemiş.

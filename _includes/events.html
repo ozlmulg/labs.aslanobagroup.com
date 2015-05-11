@@ -1,0 +1,21 @@
+<div class="calendar">
+    <h1>{{ sorted_calendar.first.start_date | localize: "%B %Y" }} Etkinlikleri</h1>
+    <hr/>
+    {% for event in sorted_calendar %}
+        {% assign single_day_event = event | is_sameday %}
+        {% if single_day_event %}
+            {% assign event_start_date = event.start_date | localize: "%-d %B %Y, %A %H:%M" %}
+            {% assign event_end_date = event.end_date | localize: "%H:%M" %}
+        {% else %}
+            {% assign event_start_date = event.start_date | localize: "%-d %B (%H:%M)" %}
+            {% assign event_end_date = event.end_date | localize: "%-d %B (%H:%M)"  %}
+        {% endif %}
+    <div class="calendar-item">
+        <h2>{{ event.title }}</h2>
+        <h3>{{ event_start_date }} - {{ event_end_date }}</h3>
+        {{ event.description | markdownify }}
+        {{ event.venue | markdownify}}
+        <hr/>
+    </div>
+    {% endfor %}
+</div>
