@@ -177,6 +177,25 @@
     [devops-x-map]: http://maps.google.com/maps?f=q&hl=en&q=%C4%B0stanbul+Teknik+%C3%9Cniversitesi%2C+Maslak%2C+Istanbul%2C+tr
 
 
+- start_date: 2015-05-21 20:00
+  end_date: 2015-05-21 22:00
+  title: "Cocoaist: Mayıs Toplantısı"
+  description: |
+    Interface Builder'ın Güzellikleri
+    
+    Mayıs ayındaki toplantımızda Aslı Sabancı Interface Builder'ın temel özellikleri, 
+    nasıl doğru kullanılması gerektiği ve az bilinen ama kullanışlı yanlarını anlatacak. 
+    IB bilen bilmeyen herkes için yararlı bir sunum olacağını düşünüyoruz.
+    
+    Kayıt için [tıklayın][cocoaist-meetup].
+    [cocoaist-meetup]: http://www.meetup.com/cocoaist/events/222251967/
+  venue: |
+    [Hipo Labs][hipo] | [Harita][hipo-map]  
+    Tavukçu Fethi Sokak No:5  
+    Osmanbey, İstanbul
+    [hipo]: http://hipolabs.com/
+    [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
+
 - start_date: 2015-06-13 09:00
   end_date: 2015-06-13 09:00
   title: "The Frontiers Mini"
