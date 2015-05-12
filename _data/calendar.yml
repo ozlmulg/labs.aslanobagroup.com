@@ -210,3 +210,20 @@
     [the-fm]: http://htmlmag.com/etkinlik/the-frontiers-mini
   venue: |
     Henüz belirlenmemiş.
+
+
+- start_date: 2015-05-14 19:00
+  end_date: 2015-05-14 21:00
+  title: "4. JavaScript Ankara Buluşması"
+  description: |
+    JavaScript Ankara'da bu haftaki etkinliğimiz Perşembe akşamı!
+
+    Baydar Bilişim Danışmanlık firmasının kurucusu **Salih Cenap Baydar** son
+    zamanlarda ismini daha sık duyurmaya başlayan **NodeJs** ve **Express** web 
+    uygulama çatısı hakkında bilgi verecek. Kayıt için [tıklayın][jsankara].
+    [jsankara]: http://www.meetup.com/Javascript-Ankara/events/221888079/
+  venue: |
+    Bilkent, Cyberpark  
+    Dr. Fikret Yücel Konferans Salonu, B Blok 1.Kat  
+    Ankara  | [Harita][jsankara-map]
+    [jsankara-map]: https://www.google.com/maps?f=q&hl=en&q=Bilkent,+Ankara,+tr
