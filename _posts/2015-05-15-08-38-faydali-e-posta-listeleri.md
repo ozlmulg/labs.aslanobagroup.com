@@ -129,5 +129,22 @@ O'Reilly - web teknolojileri ile ilgili. [Link](http://oreil.ly/1GvUx7K)
 #### Data Today
 O'Reilly - veritabanı, big-data gibi konular [Link](http://oreil.ly/1BR5GQJ)
 
+***
 
+#### CSS Weekly
+Css ile ilgili. [Link](http://css-weekly.com/)
 
+****
+
+#### ng-newsletter
+AngularJS ile ilgili. [Link](http://www.ng-newsletter.com/)
+
+***
+
+#### Redis Weekly
+Redis data-storage ile ilgili. [Link](http://redisweekly.com/)
+
+***
+
+#### Hacker News Weekly
+Programlama, startup'lar ve teknoloji konuları. [Link](http://www.hackernewsletter.com/)
