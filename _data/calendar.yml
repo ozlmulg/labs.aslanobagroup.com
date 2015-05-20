@@ -262,3 +262,18 @@
     Fazıl Say Salonu, Beşiktaş  
     İstanbul
     [bau]: http://www.bahcesehir.edu.tr/
+
+
+- start_date: 2015-06-06 11:00
+  end_date: 2015-06-06 13:00
+  title: "Azure Web Apps"
+  description: |
+    Azure Web Apps, eski adıyla Azure Web Sites konuşacağız! Migration, 
+    deployment, scaling, kudu... derken muhabbet sohbetle beraber güzel bir 
+    cumartesi :) sizi bekliyor.
+  venue: |
+    Microsoft Türkiye  
+    Bellevue Residences, Levent Mah.,  Aydın Sk No:7  
+    Levent 34340 İstanbul  | [Harita][microsoft-map]  
+    [microsoft-map]: http://maps.google.com/maps?f=q&hl=en&q=Bellevue+Residences%2C+Levent+Mahallesi%2C+Ayd%C4%B1n+Sokak+No%3A7%2C+Levent+34340+%C4%B0stanbul%2C+Istanbul%2C+tr
+    
