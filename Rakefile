@@ -56,10 +56,14 @@ namespace :deploy do
   task :rsync do
     raise "_credentials.yml dosyası bulunamadı!" unless File.exists?('./_credentials.yml')
     secrets = YAML.load_file('./_credentials.yml')
-    deploy_to="#{secrets['user']}@#{secrets['server']}:#{secrets['path']}"
+    deploy_to ="#{secrets['user']}@#{secrets['server']}:#{secrets['path']}"
+    rsync_str = "rsync -av _site/ #{deploy_to}"
+    if secrets['port']
+      rsync_str = "rsync -av -e \"ssh -p #{secrets['port']}\" _site/ #{deploy_to}"
+    end
     ENV["JEKYLL_ENV"] = "production"
     system "jekyll build"
-    system "rsync -av _site/ #{deploy_to}"
+    system rsync_str
     puts "Rsync ile deploy işlemei tamamlandı!"
   end
 end
