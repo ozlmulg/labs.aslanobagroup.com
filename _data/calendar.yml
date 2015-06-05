@@ -287,3 +287,22 @@
     Protel Merkez Binasi,  
     Esentepe Mh., Haberler Sokak,  
     Şişli, Istanbul | [Harita](https://www.google.com/maps?q=Protel,+Esentepe+Mh.,+Haberler+Sokak,+%C5%9Ei%C5%9Fli,+Istanbul)
+
+
+- start_date: 2015-06-11 19:30
+  end_date: 2015-06-11 22:30
+  title: "Extreme Agility: DevOps"
+  description: |
+    **DevOps** yaklaşımı ile Yazılım Yaşam Döngüsünün otomasyona bağlanarak
+    yazılımcıların sistem takımlarına anlık bağımlılıklarını azaltıp;
+    yazılımcıları operasyonel işlerden arındırıp, üstüne mühendislik
+    pratiklerinin de uygulanarak yüksek kalitede, daha sık ve daha sorunsuz
+    canlı ortam çıkışlarının sağlaması. [Kayıt olun](http://www.eventbrite.com/e/extreme-agility-devops-tickets-17216189085)!
+  venue: |
+    [Koç Incubation Center][koc-inc] | [Harita][koc-inc-map]  
+    19 Mayıs Cad.Golden Plaza 1/1  
+    34360 Şişli, Istanbul
+    [koc-inc]: http://incubation.ku.edu.tr/
+    [koc-inc-map]: https://www.google.com/maps/place/Golden+Plaza/@41.061645,28.989145,17z/data=!3m1!4b1!4m2!3m1!1s0x14cab703425f0e87:0x5deba339ba107c1e?hl=en
+
+
