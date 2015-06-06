@@ -196,8 +196,8 @@
     [hipo]: http://hipolabs.com/
     [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
 
-- start_date: 2015-06-13 09:00
-  end_date: 2015-06-13 09:00
+- start_date: 2015-06-20 08:50
+  end_date: 2015-06-20 17:30
   title: "The Frontiers Mini"
   description: |
     [HTML Magazin Türkiye][the-htmlm]’nin [ilk Front-end Konferansı][the-fm]’nı düzenliyor. Modern arayüz 
@@ -209,7 +209,10 @@
     [the-htmlm]: http://htmlmag.com
     [the-fm]: http://htmlmag.com/etkinlik/the-frontiers-mini
   venue: |
-    Henüz belirlenmemiş.
+    [Bahçeşehir Üniversitesi][bau]  
+    Fazıl Say Salonu, Beşiktaş  
+    İstanbul
+    [bau]: http://www.bahcesehir.edu.tr/
 
 
 - start_date: 2015-05-14 19:00
