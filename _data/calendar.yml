@@ -309,3 +309,18 @@
     [koc-inc-map]: https://www.google.com/maps/place/Golden+Plaza/@41.061645,28.989145,17z/data=!3m1!4b1!4m2!3m1!1s0x14cab703425f0e87:0x5deba339ba107c1e?hl=en
 
 
+- start_date: 2015-06-09 19:30
+  end_date: 2015-06-09 22:30
+  title: "Çiçeksepeti - CI ve CD"
+  description: |
+    Bu hafta TestHive'da Burak Koyuncu "Countinous Integration & Continous 
+    Delivery at Ciceksepeti" başlığı altında; Çiçeksepeti'nde uygulanan 
+    CI & CD, Test Automation, Load Testing, Cloud Testing ve Multiple Execution
+    yöntemlerinden bahsedecek.
+  venue: |
+    [İTÜ Teknokent ARI 3][itu-ari]  
+    Seminer Salonu 3, Maslak
+    [itu-ari]: https://www.google.com/maps/place/34398+Maslak%2FIstanbul,+Turkey/@41.1144375,29.0184601,15z/data=!3m1!4b1!4m2!3m1!1s0x14cab5bf15c34913:0x19571e96a2eaf2f6?hl=en
+
+
+    
