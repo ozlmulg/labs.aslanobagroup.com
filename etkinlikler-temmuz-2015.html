@@ -1,0 +1,11 @@
+---
+layout: page
+title: "Temmuz 2015"
+subtitle: "Temmuz 2015 takvimi"
+permalink: "/etkinlikler/2015/temmuz/"
+header-img: "images/bg/contact-bg.jpg"
+---
+
+{% assign sorted_calendar = site.data.calendar | date_query: "start_date__year", "=2015" | date_query: "start_date__month", "=7" | sort: "start_date" %}
+
+{% include events.html %}

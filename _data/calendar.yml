@@ -323,4 +323,17 @@
     [itu-ari]: https://www.google.com/maps/place/34398+Maslak%2FIstanbul,+Turkey/@41.1144375,29.0184601,15z/data=!3m1!4b1!4m2!3m1!1s0x14cab5bf15c34913:0x19571e96a2eaf2f6?hl=en
 
 
-    
+- start_date: 2015-07-25 09:00
+  end_date: 2015-07-26 19:00
+  title: "PHPkonf 2015"
+  description: |
+    İstanbul PHP topluluğu tarafından düzenlenen [PHP Konferansına](http://phpkonf.org/) sen de davetlisin!
+    Dünyanın ve Türkiye'nin önemli PHP uzmanlarının yer alacağı 2 gün sürecek bu konferans için [hemen biletini al](https://istanbulphp.eventbrite.com/), 
+    PHP ve yeni teknolojiler hakkında yapılacak konuşmaları kaçırma!
+  venue: |
+    [Bahçeşehir Üniversitesi][bau], İnkübasyon Merkezi  
+    Beşiktaş, İstanbul  
+    [bau]: http://www.bahcesehir.edu.tr/
+
+
+  
