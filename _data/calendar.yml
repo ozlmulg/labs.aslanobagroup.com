@@ -348,3 +348,22 @@
     Osmanbey, İstanbul
     [hipo]: http://hipolabs.com/
     [hipo-map]: https://www.google.com/maps/place/41%C2%B003'07.7%22N+28%C2%B059'10.5%22E/@41.052128,28.986261,17z/data=!3m1!4b1!4m2!3m1!1s0x0:0x0?hl=en
+
+
+- start_date: 2015-07-09 12:30
+  end_date: 2015-07-09 13:30
+  title: "Frontend Techtalks: Nedir bu ReactJS dedikleri?"
+  description: |
+    Frontend dünyası, takip edenleri çileden çıkartırcasına bir hızla ilerlemeye 
+    devam ediyor. Müşterilerimiz bizlerden daha performanslı, daha gelişmiş şeyleri 
+    daha acil olarak isteye dursun, çok şükür işlerimizi kolaylaştıran frontend 
+    kütüphaneleri de patlamış mısır gibi çoğalıyor.
+
+    İşte bunların arasında **şu anda** en popüler kütüphanelerden biri de şüphesiz 
+    **ReactJS**. Bu 1 saatlik sunumda ReactJS'in ne olduğundan, diğer frontend 
+    kütüphanelerinden nasıl farkları olduğundan bahsediyor olacağız.
+  venue: |
+    YTÜ Davutpaşa Teknopark  
+    B2 Toplantı Salonu  
+    [Harita](https://www.google.com/maps/place/VNGRS/@41.020424,28.8928234,17z/data=!4m5!1m2!2m1!1s+YT%C3%9C+Davutpa%C5%9Fa+Teknopark+B2!3m1!1s0x0000000000000000:0x5414c0a73e7c127b)
+    
