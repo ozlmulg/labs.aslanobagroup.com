@@ -366,4 +366,17 @@
     YTÜ Davutpaşa Teknopark  
     B2 Toplantı Salonu  
     [Harita](https://www.google.com/maps/place/VNGRS/@41.020424,28.8928234,17z/data=!4m5!1m2!2m1!1s+YT%C3%9C+Davutpa%C5%9Fa+Teknopark+B2!3m1!1s0x0000000000000000:0x5414c0a73e7c127b)
-    
+
+
+- start_date: 2015-08-06 19:00
+  end_date: 2015-08-06 21:00
+  title: "Vieux Framework"
+  description: |
+    Armağan Amcalar konuşmada bir süredir üzerinde çalıştığı Javascript tabanlı 
+    önyüz mimarisi **Vieux**'yü tanıtacak. Vieux, çok çabuk karmaşıklaşan önyüz 
+    uygulamalarının mimari problemlerinin çözümü için geliştirilen bir yaklaşım, 
+    ve her modern framework ile kullanılabiliyor.
+  venue: |
+    [İTÜ Teknokent ARI 3][itu-ari]  
+    Seminer Salonu 4, Maslak
+    [itu-ari]: https://www.google.com/maps/place/34398+Maslak%2FIstanbul,+Turkey/@41.1144375,29.0184601,15z/data=!3m1!4b1!4m2!3m1!1s0x14cab5bf15c34913:0x19571e96a2eaf2f6?hl=en

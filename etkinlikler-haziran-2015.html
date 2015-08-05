@@ -6,6 +6,6 @@ permalink: "/etkinlikler/2015/haziran/"
 header-img: "images/bg/contact-bg.jpg"
 ---
 
-{% assign sorted_calendar = site.data.calendar | datelize: "start_date", "end_date" | date_query: "start_date__year", "=2015" | date_query: "start_date__month", "=6" | sort: "start_date" %}
+{% assign sorted_calendar = site.data.calendar | date_query: "start_date__year", "=2015" | date_query: "start_date__month", "=6" | sort: "start_date" %}
 
 {% include events.html %}
